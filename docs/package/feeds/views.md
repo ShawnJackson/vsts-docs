@@ -19,8 +19,7 @@ monikerRange: '>= tfs-2017'
 
 Views filter the feed to a subset of packages that meet criteria defined by the view.
 
-Right now, the only [kind of view](#views-for-other-scenarios) is a *release view*. 
-Release views contain the subset of the feed's package-versions that have been *promoted* into that view.
+Right now, the only [kind of view](#views-for-other-scenarios) is a *release view*. Release views contain the subset of the feed's package-versions that have been *promoted* into that view. Release views work with NuGet and npm packages.
 
 *If you've never used release views, read more about [why and how they're useful for package continuous integration and delivery](../concepts/views.md) before getting started.*
 
@@ -57,7 +56,7 @@ For more details, see [Consume NuGet packages in Visual Studio](../nuget/consume
 
 If you have a release process with more steps or differently-named steps, you can [customize your views](#managing-views). 
 
-## Use release views with continous integration/delivery
+## Use release views with continuous integration/delivery
 
 Today, you can use the **NuGet** task in Team Build to automatically version your packages, then promote packages into a release view manually in the PACKAGE hub. In this case, make sure to check the **Include pre-release** button in the Visual Studio NuGet Package Manager extension, even when you're using the `Release` view.
 
