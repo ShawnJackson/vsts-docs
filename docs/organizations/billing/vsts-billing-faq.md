@@ -34,7 +34,7 @@ A: No. VSTS must be purchased using an Azure subscription. (Think of it as your 
 
 A: Almost all Azure subscriptions can be used. We support Azure subscriptions connected to your
 [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/), Azure subscriptions set up by
-Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, Pay-As-You-Go Azure subscriptions, and you can even buy using Azure subscriptions that Visual Studio subscribers set up as a subscriber benefit. (But no, you can't use your monthly credit to pay for more Visual Studio subscriptions.)
+Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, and Pay-As-You-Go Azure subscriptions. You can even buy using Azure subscriptions that Visual Studio subscribers set up as a subscriber benefit. (But no, you can't use your monthly credit to pay for more Visual Studio subscriptions.)
 
 The only notable exclusion is that you can't use the [Azure free trial](https://azure.microsoft.com/pricing/free-trial/).
 
@@ -59,25 +59,27 @@ A: Not at all. If you only want to buy VSTS via Azure, you can do that.
 
 ### Q: Can tags be applied to VSTS organizations from the Azure portal?
 
-A: No, but this feature is on our backlog to add in the future.
+A: No, but this feature is in our backlog to add in the future.
 
 ## Enterprise Agreement customers
 
 ### Q: Can I use an Enterprise Agreement to buy VSTS?
 
-A: Yes, you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Please make sure that you make your purchases for VSTS directly in the Visual Studio Marketplace. You cannot purchase VSTS by using a purchase order. 
+A: Yes, you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Be sure to make your purchases for VSTS directly in the Visual Studio Marketplace. You cannot purchase VSTS by using a purchase order. 
 
 ### Q: How can I tell whether I have the necessary privileges to buy services in the Visual Studio Marketplace through my organization's Enterprise Agreement?
 
 A: The easiest approach to determine if you have the right privileges is to select the **Buy** button for a service offered in the Visual Studio Marketplace. You need to select an Azure subscription (which is a billing account) from a presented list of Azure subscriptions that are currently linked to your sign-in. Because the name of the Azure subscription defaults to the type of billing account (for example, "Pay-As-You-Go" or "Enterprise Agreement"), it's often clear if the Azure subscription is part of your Enterprise Agreement.
 
-Another approach is to attempt to visit the [Azure Enterprise Portal](http://ea.azure.com). If you can reach it successfully, then you already have either the Enterprise Admin or the Organization Owner role. Only Organization Owners can set up new Azure billing in an Enterprise Agreement. If you cannot access the Azure Enterprise Portal, then please inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an Organization Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](http://aka.ms/AzureEntSupport) and request the contact information.  You need your organization's name and your Enterprise Agreement enrollment number for the support ticket.
+Another approach is to try to visit the [Azure Enterprise Portal](http://ea.azure.com). If you can reach it successfully, then you already have either the enterprise admin or the organization owner role. Only organization owners can set up new Azure billing in an Enterprise Agreement. 
+
+If you can't access the Azure Enterprise Portal, inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an organization owner within the Azure Enterprise Portal. If you can't find this person, you can [submit a support ticket](http://aka.ms/AzureEntSupport) and request the contact information. You need your organization's name and your Enterprise Agreement enrollment number for the support ticket.
 
 ### Q: Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy VSTS?
 
-A: Yes, you can use these prepaid funds for all VSTS services offered by Microsoft. Make sure to choose an Azure subscription that was created for your EA when you [set up billing for your VSTS organization](set-up-billing-for-your-organization-vs.md).
+A: Yes, you can use these prepaid funds for all VSTS services that Microsoft offers. Make sure to choose an Azure subscription that was created for your EA when you [set up billing for your VSTS organization](set-up-billing-for-your-organization-vs.md).
 
-The only exclusion is for VSTS extensions offered by partners in the Visual Studio Marketplace; these charges will appear on your next "overage" invoice. Typically this happens monthly, but due to historical rules for some EA customers, an overage invoice might not be issued for several months. Please consult a licensing specialist for your EA if you need to know what amount of additional purchases (purchases which are not eligible for Azure Monetary Commitment funds) will trigger an overage invoice.
+The only exclusion is for VSTS extensions offered by partners in the Visual Studio Marketplace. These charges will appear on your next "overage" invoice. Typically this happens monthly, but due to historical rules for some EA customers, an overage invoice might not be issued for several months. Please consult a licensing specialist for your EA if you need to know what amount of additional purchases (purchases that are not eligible for Azure Monetary Commitment funds) will trigger an overage invoice.
 
 ## How charges are processed
 
