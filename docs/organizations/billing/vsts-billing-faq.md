@@ -28,7 +28,7 @@ You also have to set up billing to buy other features (for your users) that are 
 
 ### Q: Can I buy VSTS by using a purchase order?
 
-A: No. VSTS must be purchased using an Azure subscription. (Think of it as your Azure billing account.)
+A: No. VSTS must be purchased through an Azure subscription. (Think of it as your Azure billing account.)
 
 ### Q: What types of Azure subscriptions can be used to buy VSTS?
 
@@ -85,37 +85,37 @@ The only exclusion is for VSTS extensions offered by partners in the Visual Stud
 
 ### Q: How are user charges (VSTS User/Basic, Test Manager, and Package Management) and CI/CD concurrent job charges (for both Microsoft-hosted and self-hosted CI/CD) processed?
 
-A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Test Manager users was made on April 15, then we would charge 5 units because 50% of the month remains (15 days of a 30-day month). On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
+A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Test Manager users happens on April 15, then we charge 5 units because 50% of the month remains (15 days of a 30-day month). On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
 
-When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought 1 more Test Manager users on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May). 
+When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you buy 1 more Test Manager user on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May). 
 
 ### Q: How do reductions or cancellations work?
 
-A: When you reduce or cancel user charges or CI/CD charges, you are canceling automatic renewal. The features and/or CI/CD capacity continue through the end of the current calendar month, taking effect on the fist day of the next month.
+A: When you reduce or cancel user charges or CI/CD charges, you're canceling automatic renewal. The features and/or CI/CD capacity continue through the end of the current calendar month, taking effect on the fist day of the next month.
 
 ## Changes in Azure subscription status
 
 ### Q: What happens if I cancel my Azure subscription or my credit card expires?
 
-A: When the Azure subscription used for billing on your VSTS organization is not in active status--for example, because you cancel it or when the credit card used for billing expires--your VSTS organization will revert to the free tier of service, but you'll keep any paid users or paid CI/CD concurrent jobs until next month.
+A: When the Azure subscription used for billing on your VSTS organization is not in active status - for example, because you cancel it or the credit card used for billing expires - your VSTS organization will revert to the free tier of service. But you'll keep any paid users or paid CI/CD concurrent jobs until next month.
 
 >[!NOTE]
 >You must keep your Azure subscription in good standing to avoid interruptions in paid VSTS services.
 
-### Q:  Where can I check my bill or update billing details on my Azure subscription?
+### Q: Where can I check my bill or update billing details on my Azure subscription?
 
-A:  If you're the owner or contributor for the Azure subscription used for billing your VSTS organization, you can view your billing details on the [Azure portal](https://account.azure.com/).
+A: If you're the owner or contributor for the Azure subscription used for billing your VSTS organization, you can view your billing details in the [Azure portal](https://account.azure.com/).
 
 ## Other questions
 
 ### Q: Why is my VSTS organization already linked to an Azure subscription?
 
 A: This happens if someone already set up billing for your VSTS organization, either through the Azure portal or while purchasing something for this organization via the
-[Visual Studio Marketplace](https://marketplace.visualstudio.com/vsts). Each VSTS organization can only use one Azure subscription for billing; charges cannot be split across multiple Azure subscriptions.
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/vsts). Each VSTS organization can use only one Azure subscription for billing. Charges cannot be split across multiple Azure subscriptions.
 
-### Q:  Can I use the same Azure subscription for billing across multiple VSTS organizations?
+### Q: Can I use the same Azure subscription for billing across multiple VSTS organizations?
 
-A:  Yes, you can use the same Azure subscription for billing across multiple VSTS organizations. But you can't link a single VSTS organization to multiple Azure subscriptions.
+A: Yes, you can use the same Azure subscription for billing across multiple VSTS organizations. But you can't link a single VSTS organization to multiple Azure subscriptions.
 
 <a name="find-owner"></a>
 
@@ -145,11 +145,11 @@ A: You can find the current owner in your VSTS organization settings.
 
 ### Q: Can I buy VSTS from my software reseller?
 
-A:  Yes you can, if your reseller participates in the Cloud Solution Provider (CSP) program. Just ask them.
+A:  Yes you can, if your reseller participates in the Cloud Solution Provider program. Just ask them.
 
 ## Buy VSTS now
 
-* [VSTS users/Basic](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser)
+* [VSTS Users/Basic](https://marketplace.visualstudio.com/items?itemName=ms.vss-vstsuser)
 * [Microsoft-hosted CI/CD](https://marketplace.visualstudio.com/items?itemName=ms.build-release-hosted-pipelines) (formerly hosted pipelines)
 * [Self-hosted CI/CD](https://marketplace.visualstudio.com/items?itemName=ms.build-release-private-pipelines) (formerly private pipelines)
 * [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
